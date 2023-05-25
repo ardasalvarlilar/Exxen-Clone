@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  height: 100vh;
+}
+
+.containers{
+  width: 69%;
+  margin: auto;
+}
+.renk{
+  background-color: #ffcb0c;
+}
+.ticari{
+  background-color: black;
+  color: #ffcb0c;
+}
+.ticari:hover, .ticari-md:hover{
+  background-color: black;
+  color: #ffcb0c;
+}
+.select-icin{
+  width: 45px;
+}
+.ticari-md{
+  display: none;
+  color: #ffcb0c;
+  background-color: black;
+}
+.uyeol{
+  background-color: #ffcb0c;
+  color: black;
+}
+.row .col-4 input::placeholder{
+  color: black;
+}
+.renklendir{
+  color: #ffcb0c;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+@media screen  and (max-width:1180px){
+  .ticari{
+    display: none;
+  }
+  .ticari-md{
+    display: block;
+  }
+}
+@media screen and (max-width:768px){
+  .containers{
+    width: 100%;
+  }
+}
